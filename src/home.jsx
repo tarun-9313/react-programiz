@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { SiJavascript, SiPython, SiR } from "react-icons/si";
-import "./home.css";
+import "./Home.css";
 
 function Home() {
   const navigate = useNavigate();
