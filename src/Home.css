@@ -1,0 +1,94 @@
+/* #div{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 50px;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    font-size: 50px;
+    color: rgb(102, 102, 231);
+}
+#divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    gap: 50px;
+}
+#divss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+button{
+    color:black;
+    height: 50px;
+    width: 80px;
+    background-color:rgb(47, 226, 226);
+    border-radius: 20px;
+    border: 0.5px solid black;
+}
+button:hover{
+    color:black;
+    height: 50px;
+    width: 80px;
+    background-color:rgb(47, 226, 226);
+    border-radius: 20px;
+    border: 0.5px solid black;
+
+} */
+ /* home.css */
+
+#title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Shared button styles */
+#div button,
+#divs button,
+#divss button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin: 0.5rem;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.2s;
+}
+
+#div button:hover,
+#divs button:hover,
+#divss button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Group containers */
+#div,
+#divs,
+#divss {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  max-width: 900px;
+}
+#tarun{
+    background-color: rgb(139, 235, 203);
+    height: 500px;
+}
